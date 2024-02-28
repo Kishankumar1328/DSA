@@ -1,9 +1,16 @@
-#include<iostream.h> #include<conio.h> #include<stdlib.h> struct node
+#include<iostream.h> 
+#include<conio.h> \
+#include<stdlib.h> 
+struct node
 {
-int element; struct node *next;
-}*list=NULL,*p; struct node *find(int);
-struct node *findprevious(int); void insert(int X);
-void deletion(int X); void display();
+int element; 
+struct node *next;
+}*list=NULL,*p;
+struct node *find(int);
+struct node *findprevious(int);
+void insert(int X);
+void deletion(int X); 
+void display();
 void main()
 {
 int data,ch; clrscr();
